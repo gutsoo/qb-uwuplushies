@@ -1,0 +1,72 @@
+Config = {}
+
+Config.Items = {
+    label = "Shop",
+    slots = 20,
+    items = { 
+        [1] = {
+            name = 'uwupurpleplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 1,
+        }, 
+        [2] = {
+            name = 'uwugreenplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 2,
+        }, 
+        [3] = {
+            name = 'uwublueplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 3,
+        }, 
+        [3] = {
+            name = 'uwubrownplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 3,
+        }, 
+        [4] = {
+            name = 'uwuyellowplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 4,
+        }, 
+        [5] = {
+            name = 'uwuredplush',
+            price = 1000, 
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 5,
+        }, 
+        [6] = {
+            name = 'uwugreenrareplush',
+            price = 10000, 
+            amount = 2500,
+            info = {},
+            type = 'item',
+            slot = 6,
+        }, 
+        [7] = {
+            name = 'uwupinkrareplush',
+            price = 10000, 
+            amount = 2500,
+            info = {},
+            type = 'item',
+            slot = 7,
+        }, 
+    },
+}

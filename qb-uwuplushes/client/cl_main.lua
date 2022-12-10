@@ -150,3 +150,27 @@ local uwurareplush = {
 	[1] =  {["item"] = 'uwugreenrareplush'},
 	[2] =  {["item"] = 'uwupinkrareplush'},
 }
+
+CreateThread(function()
+	exports["qb-target"]:AddBoxZone("uwuplush", vector3(-582.59, -1058.18, 22.34), 0.5, 1.4, {
+        name = "uwuplush",
+        heading = 0,
+        debugPoly = false,
+        minZ = false,
+        maxZ = false
+    }, {
+        options = {
+            {
+                event = "qb-uwuplush:shop",
+                icon = "fas fa-shopping-basket",
+                label = "Uwu Plushes Vitrine",
+            }, 
+        },
+        distance = 4.5
+    })  
+end) 
+
+RegisterNetEvent('qb-uwuplush:shop')
+AddEventHandler('qb-uwuplush:shop',function()  
+    TriggerServerEvent("inventory:server:OpenInventory", "shop", "uwuplush", Config.Items)
+end) 
